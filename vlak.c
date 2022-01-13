@@ -3,7 +3,7 @@
 int main(){
     int d;
     printf("Unesi promjer kotaca vlaka\n");
-    scanf("%d", &   d);
+    scanf("%d", &d);
 
     float opseg=d*3.1356;
 
