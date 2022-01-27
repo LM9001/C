@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 main(){
-    int gal;
     int mil;
+    int gal;
     printf("unesi broj gallona i milja:\n");
     scanf("%d %d", &gal, &mil);
     float lit=(float)gal*4.55;
