@@ -1,10 +1,12 @@
 #include <stdio.h>
-#include <math.h>
 
-void main(){
-    int stranicaA=90;
-    int stranicaB=50;
-    int stranicaC=30;
-    int V=stranicaA*stranicaB*stranicaC;
-    printf("%d", V);
+int main(){
+    int x;
+    printf("Unesi kreditnu ocjenu");
+    scanf("%d", &x);
+    if(x<750){
+        printf("Nema pristup");
+    }else{
+    printf("Dobrodosli u KRED program");
     }
+}

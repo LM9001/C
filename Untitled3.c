@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-void main(){
-    int broj;
-
-    printf("Unesi broj");
-    scanf("%d", &broj);
-
-   // expression?if true:if false;
-
-    printf(broj%2==0?"Broj je paran":"Broj je neparan");
-
+int main(){
+    int a;
+    printf("Unesi neki broj");
+    scanf("%d", &a);
+    int b=a%10;
+    while(a>10){
+        a=a/10;
+    }
+    int c=a+b;
+    printf("%d", c);
 }

@@ -1,15 +1,13 @@
 #include <stdio.h>
-#include <math.h>
 
-main(){
-    int F1;
-    int F2;
-    printf("Unesi broj dvaju sila\n");
-    scanf("%d %d", &F1, &F2);
-    int a=F1+F2;
-    int b=F1-F2;
-    int c=sqrt((F1*F1)*(F2*F2));
-    printf("%d\n",a);
-    printf("%d\n",b);
-    printf("%d\n",c);
+int main(){
+    int x;
+    int y;
+    printf("Unesi cijenu prve i druge tvrtke");
+    scanf("%d %d", &x, &y);
+    if(x<y){
+        printf("Marko æe odabrati x tvrtku");
+    }else{
+        printf("Marko æe odabrati y tvrtku");
     }
+}
